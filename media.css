@@ -1,0 +1,374 @@
+@media (max-width: 1750px) {
+  .benefits-section::after {
+    display: none;
+  }
+  .any-inner {
+    left: 190px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .benefits-wrap {
+    position: static;
+  }
+  .about-position {
+    left: -10rem;
+  }
+  .any-inner {
+    left: 90px;
+  }
+  .benefits-wrap {
+    justify-content: center;
+  }
+  .benefit-box {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .menu-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .lang-menu-wrap {
+    order: 1;
+    position: static;
+  }
+  .main-menu-wrap {
+    order: 2;
+  }
+  .logo {
+    order: 1;
+  }
+  .log-menu {
+    order: 2;
+  }
+  .site-menu {
+    order: 3;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+  .site-menu li {
+    width: auto;
+  }
+  .site-menu-nav {
+    position: static;
+  }
+}
+
+@media (max-width: 1200px) {
+  .any-inner {
+    position: static;
+    justify-content: center;
+  }
+  .partners-logos {
+    margin: 0;
+  }
+  .partners-wrap::before {
+    width: 95%;
+  }
+  .footer {
+    position: static;
+    width: 90%;
+  }
+  .footer-nav {
+    padding: 0;
+  }
+  .footer-nav::before, .footer-menu-wrap div:first-child::before, .partners-wrap::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .any-block-img, .privacy-wrap::before, .partners-wrap::before, .bf-item-2::before, .bf-item-2::after, .about-section::after {
+    display: none;
+  }
+  .quote-block {
+    left: -95px;
+    margin-top: 70px;
+  }
+  .main-content-bottom {
+    top: -105px;
+    height: auto;
+  }
+  .about-position {
+    position: static;
+  }
+  .about-btn {
+    left: 95px;
+  }
+  .main-content-bottom {
+    top: -80px;
+  }
+  .any-wrap {
+    padding-top: 190px;
+  }
+  .privacy-wrap, .partners-wrap {
+    position: static;
+  }
+  .privacy-wrap, .partners-wrap {
+    margin: 100px auto 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .social-icons-mob {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu-wrap {
+    padding: 70px 80px 0;
+  }
+  .social-icons {
+    display: none;
+  }
+  .social-icons-mob {
+    order: 3;
+    position: relative;
+    top: 35px;
+  }
+  .social-icons-mob i {
+    font-size: 30px;
+  }
+  main {
+    top: -8rem;
+  }
+  .top-main-block {
+    width: 95%;
+  }
+  .benefits-wrap {
+    display: block;
+  }
+  .benefit-box {
+    width: 40%;
+    margin: 50px auto 0;
+  }
+  figure img {
+    width: 90vw;
+  }
+  .quote-block {
+    position: static;
+  }
+  footer {
+    top: -100px;
+  }
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-menu-wrap {
+    order: 1;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .footer-menu-wrap div {
+    width: auto;
+  }
+  .footer-menu-wrap>div {
+    text-align: left;
+  }
+  .contacts-footer {
+    order: 2;
+    width: 90%;
+    margin: 7% 0;
+  }
+  .footer-bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+  header, main, footer {
+    position: static;
+    padding: 30px;
+  }
+  .menu-wrap {
+    padding: 50px 50px 0;
+  }
+  h1, h2 {
+    font-size: 3rem;
+  }
+  h3, .top-main-block p {
+    font-size: 2rem;
+    text-shadow: 1px 1px 8px #fff, 1px 0px 0px #000;
+  }
+  .top-btn-block {
+    flex-direction: column;
+    background: none;
+  }
+  .top-btn-block div {
+    margin-top: 40px;
+  }
+  .account-btn {
+    margin: 0;
+  }
+  .privacy-txt {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  .privacy-txt p {
+    margin-top: 15px;
+    font-size: 1.3rem;
+  }
+  .benefit-box {
+    width: 60%;
+  }
+  .about-block, .quote-block {
+    width: 80%;
+  }
+  .about-block p {
+    font-size: 1.3rem;
+  }
+  .about-btn {
+    left: 0;
+  }
+  .clients-logo-block, .partners-wrap {
+    display: none;
+  }
+  .quote-block {
+    margin-top: 140px;
+  }
+  footer {
+    position: static;
+  }
+}
+
+@media (min-width: 541px) {
+  .burger-menu, .site-menu-mob {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .site-menu, .social-icons-mob, .separate-menu li:not(:last-child)::after {
+    display: none;
+  }
+  header ul {
+    flex-wrap: wrap;
+  }
+  .menu-wrap {
+    padding: 0;
+  }
+  .menu-wrap+section {
+    margin-top: 110px;
+  }
+  .main-menu-wrap {
+    margin-top: 5%;
+  }
+  .logo {
+    order: 2;
+    width: 100%;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .burger-menu {
+    width: 48px;
+    height: 48px;
+    background: url(./assets/img/burger.png) center no-repeat;
+  }
+  .site-menu-mob {
+    position: absolute;
+    width: 50%;
+    margin: 0;
+    background: #e9e7e7;
+    font-size: 1.5rem;
+    z-index: 10;
+  }
+  .site-menu-nav {
+    display: block;
+    width: auto;
+    padding: 25px;
+  }
+  .site-menu-nav li {
+    width: auto;
+    text-align: left;
+    line-height: 2;
+  }
+  .lang-menu-wrap {
+    font-size: 1.2rem;
+  }
+  .log-menu {
+    order: 1;
+  }
+  .log-menu ul {
+    justify-content: center;
+  }
+  .about-block {
+    text-align: center;
+  }
+  .benefit-box {
+    width: 80%;
+  }
+  .about-section h2 {
+    font-size: 2.3rem;
+  }
+  .any-block {
+    width: 90%;
+  }
+  .privacy-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-upgrade {
+    margin: 0;
+  }
+  .btn-donate {
+    margin-top: 30px;
+  }
+  .footer-menu-wrap {
+    display: block;
+  }
+  .footer-menu-wrap div:not(:first-child) {
+    margin-top: 25px;
+  }
+  .footer-menu-wrap p {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .fotter-nav-points {
+    margin: 0;
+  }
+  .fotter-nav-points ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+  }
+  .fotter-nav-points li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .contacts-footer p {
+    font-size: 1.2rem;
+  }
+  .footer-bottom p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .contacts-footer {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-btn {
+    padding: 15px;
+  }
+  .app-store-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .app-store-link a:first-child {
+    margin: 0 0 20px;
+  }
+  .footer-bottom nav {
+    display: none;
+  }
+}
